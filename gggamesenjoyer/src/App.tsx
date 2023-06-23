@@ -7,17 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Games Enjoyer</h1>
+        <p> ¿Quieres entretenerte y no sabes cómo hacerlo? ¡Prueba estos juegos! </p>
+        <a className="Piedra-Papel-Tijera" href="./piedra-papel-tijera/ppt.tsx" target="blank">Piedra, papel y tijera</a>
+        <a></a>
+        <a></a>
       </header>
     </div>
   );
